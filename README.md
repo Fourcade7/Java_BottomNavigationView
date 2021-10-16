@@ -1,5 +1,5 @@
 # Java_BottomNavigationView
-bottomindicator , icon color , text-size
+bottomindicator , icon color , text-size , font-family
 
 ![image](https://user-images.githubusercontent.com/60017090/137572726-b59ec140-b51a-4e68-b53f-f8975d2aca27.png)
 
