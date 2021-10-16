@@ -37,3 +37,25 @@ bottomindicator , icon color , text-size
          <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
            <item name="android:textSize">11sp</item>
          </style>
+         
+         
+//res/drawable/bottomindicator
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:gravity="bottom">
+                <shape android:shape="rectangle">
+                    <size
+                        android:height="3dp"
+
+                        />
+
+                    <corners android:radius="150dp"></corners>
+                    <solid android:color="@color/teal_700" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
