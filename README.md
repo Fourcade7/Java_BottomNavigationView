@@ -39,11 +39,11 @@ bottomindicator , icon color , text-size
          </style>
          
          
-    //res/drawable/bottomindicator
+//res/drawable/bottomindicator
 
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_checked="true">
+    <?xml version="1.0" encoding="utf-8"?>
+     <selector xmlns:android="http://schemas.android.com/apk/res/android">
+      <item android:state_checked="true">
         <layer-list>
             <item android:gravity="bottom">
                 <shape android:shape="rectangle">
@@ -57,5 +57,5 @@ bottomindicator , icon color , text-size
                 </shape>
             </item>
         </layer-list>
-    </item>
-</selector>
+      </item>
+    </selector>
