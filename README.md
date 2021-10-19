@@ -1,7 +1,8 @@
 # Java_BottomNavigationView
 bottomindicator , icon color , text-size , font-family
 
-![image](https://user-images.githubusercontent.com/60017090/137572726-b59ec140-b51a-4e68-b53f-f8975d2aca27.png)
+![image](https://user-images.githubusercontent.com/60017090/137971577-b8bcdb81-b328-4298-9e5d-e05a294bcaa2.png)
+
 
      <com.google.android.material.bottomnavigation.BottomNavigationView
         app:itemTextAppearanceActive="@style/BottomNavigationView.Active"
