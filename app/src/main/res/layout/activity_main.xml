@@ -5,9 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BAC1C1"
-
-    tools:context=".MainActivity">
+   tools:context=".MainActivity">
 
    <LinearLayout
        android:id="@+id/linearlay"
@@ -20,7 +18,7 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         app:itemTextAppearanceActive="@style/BottomNavigationView.Active"
         app:itemTextAppearanceInactive="@style/BottomNavigationView"
-        android:background="@color/white"
+        android:background="@color/purple_500"
         android:id="@+id/bottomnavigationview"
         app:menu="@menu/bottommenu"
         app:itemTextColor="@color/bottomcolor"
@@ -29,8 +27,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:itemBackground="@drawable/bottominidicator"
+
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="5dp"
+
         ></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
 
 </RelativeLayout>

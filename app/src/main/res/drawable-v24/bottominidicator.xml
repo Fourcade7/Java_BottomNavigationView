@@ -6,11 +6,11 @@
                 <shape android:shape="rectangle">
                     <size
                         android:height="3dp"
-
+                        android:width="10dp"
                         />
 
                     <corners android:radius="150dp"></corners>
-                    <solid android:color="@color/teal_700" />
+                    <solid android:color="@color/bottomcolor" />
                 </shape>
             </item>
         </layer-list>
